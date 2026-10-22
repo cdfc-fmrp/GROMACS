@@ -1,4 +1,4 @@
-# 🧬 GROMACS | Pipeline Interativo
+# 🧬 Pipeline Interativo - Uso do Gromacs e GPU de recursos em Nuvem
 
 Interface web interativa desenvolvida para apresentar e facilitar a compreensão das etapas de um pipeline de simulação de dinâmica molecular utilizando o **GROMACS**.
 
