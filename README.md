@@ -1,4 +1,4 @@
-# 🧬 Pipeline Interativo - Gromacs e GPU usando Docker
+# 🧬 Pipeline Interativo - Gromacs com GPU e Containers
 
 Interface web interativa que apresentar as etapas para configurar e executar simulações de dinâmica molecular com **GROMACS**, utilizando containers Docker em difeentes ambientes computacionais.
 
