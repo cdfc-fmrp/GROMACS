@@ -1,27 +1,24 @@
-# 🧬 Pipeline Interativo - Uso do Gromacs e GPU de recursos em Nuvem
+# 🧬 Pipeline Interativo - Gromacs e GPU usando Docker
 
-Interface web interativa desenvolvida para apresentar e facilitar a compreensão das etapas de um pipeline de simulação de dinâmica molecular utilizando o **GROMACS**.
+Interface web interativa que apresentar as etapas para configurar e executar simulações de dinâmica molecular com **GROMACS**, utilizando containers Docker em difeentes ambientes computacionais.
 
-O projeto oferece uma visualização organizada do fluxo de trabalho, permitindo explorar suas diferentes etapas de maneira intuitiva e acessível.
 
 ## 🌐 Acesse a interface interativa
 
 ### 🚀 [CLIQUE AQUI PARA ABRIR A INTERFACE](https://cdfc-fmrp.github.io/GROMACS/)
 
-A interface está disponível diretamente pelo navegador, sem necessidade de instalação ou configuração de ambiente.
+Acesse diretamente pelo navegador, sem necessidade de instalação.
 
-## 📋 Sobre o projeto
+## 📋 Objetivo
 
-O projeto tem como objetivo facilitar a visualização e a compreensão do pipeline GROMACS, reunindo suas etapas em uma interface web interativa.
+Demonstrar uma solução reprodutível e portátil para executar simulações em diferentes infraestruturas:
 
-A ferramenta pode ser utilizada como material de apoio para estudos, pesquisas e compreensão dos processos envolvidos em simulações de dinâmica molecular.
+- **Google Cloud L4:** testes e validação.
+- **Google Cloud A100**: processamento de produção.
+- **Servidor local (on-premises)**: execução em GPU NVIDIA Blackwell.
 
-## 💻 Tecnologias utilizadas
+O uso de containers facilita a portabilidade do ambiente, reduzindo problemas de compatibilidade entre sistemas. Cada plataforma requer validação de drivers, CUDA e suporte à GPU.
 
-- **HTML5** — Estrutura da interface.
-- **CSS3** — Estilização e organização visual.
-- **JavaScript** — Interatividade e navegação.
-- **GitHub Pages** — Hospedagem da interface web.
 
 ## 📂 Estrutura do repositório
 
@@ -32,4 +29,5 @@ GROMACS/
 ```
 ---
 
-**CDFC | Faculdade de Medicina de Ribeirão Preto — Universidade de São Paulo (USP)**
+**Centro de Desenvolvimento e Formação Continuada em Informática Biomédica (CDFC IBm-FMRP)**
+Faculdade de Medicina de Ribeirão Preto — Universidade de São Paulo (USP)
